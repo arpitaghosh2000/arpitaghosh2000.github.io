@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="3;url=/">
+  <title>Redirecting | Arpita Ghosh</title>
+  <link rel="stylesheet" href="/site/styles.css">
+  <script>
+    const redirects = {
+      "/home": "/",
+      "/projects": "/pages/projects.html",
+      "/teaching": "/pages/teaching.html",
+      "/presentations": "/pages/presentations.html",
+      "/publications": "/pages/publications.html",
+      "/milestones": "/pages/milestones.html",
+      "/people": "/pages/people.html",
+      "/outreach": "/pages/outreach.html",
+      "/contact": "/pages/contact.html"
+    };
+
+    const normalizedPath = window.location.pathname.replace(/\/+$/, "") || "/";
+    window.location.replace(redirects[normalizedPath.toLowerCase()] || "/");
+  </script>
+</head>
+<body>
+  <main class="container content-main">
+    <section>
+      <h1>Redirecting…</h1>
+      <p>This address has moved. If you are not redirected automatically, <a href="/">visit the homepage</a>.</p>
+    </section>
+  </main>
+</body>
+</html>
