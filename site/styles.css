@@ -463,8 +463,16 @@ h1 {
   font-weight: 600;
 }
 
+.button:visited,
+.button:active,
+.button:focus,
+.button:focus-visible {
+  color: var(--button-text);
+}
+
 .button:hover {
   background: var(--accent-2);
+  color: var(--button-text);
 }
 
 main {
@@ -696,6 +704,32 @@ section {
   color: var(--muted);
   font-style: italic;
 }
+
+.page-hero { padding-bottom: 1.5rem; }
+.page-hero h1 { max-width: 24ch; }
+.content-main { padding-bottom: 4rem; }
+.content-main h2, .content-main h3, .content-main p { margin-top: 0; }
+.content-main h2 { line-height: 1.25; }
+.timeline article { position: relative; padding-left: 1.25rem; }
+.timeline article::before { content: ""; position: absolute; left: 0; top: 0.55rem; width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--accent); }
+.timeline article + article { margin-top: 1.3rem; padding-top: 1.3rem; border-top: 1px solid var(--border); }
+.timeline h3, .media-card h3 { margin-bottom: 0.2rem; }
+.item-date { display: inline-block; margin-bottom: 0.35rem; padding: 0.05rem 0.4rem; border-radius: 0.25rem; background: var(--news-badge-bg); font-size: 0.88rem; font-weight: 700; }
+.image-grid, .card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.image-grid { position: relative; }
+.image-grid img, .media-card img { width: 100%; border-radius: 0.65rem; border: 1px solid var(--border); }
+.image-grid img { height: 18rem; object-fit: cover; cursor: zoom-in; transition: transform 180ms ease, box-shadow 180ms ease; }
+.image-grid img:hover { position: relative; z-index: 5; object-fit: contain; background: var(--panel); box-shadow: 0 16px 36px var(--menu-shadow); transform: scale(1.35); }
+.feature-card, .contact-layout { display: grid; grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.2fr); gap: 1.5rem; align-items: center; }
+.feature-card > img, .contact-layout > img { width: 100%; max-height: 28rem; object-fit: cover; border-radius: 0.7rem; border: 1px solid var(--border); }
+.media-card { padding: 0.85rem; border: 1px solid var(--border); border-radius: 0.75rem; background: color-mix(in srgb, var(--panel) 88%, transparent); }
+.media-card img { aspect-ratio: 1 / 1; object-fit: cover; margin-bottom: 0.75rem; }
+.milestone-grid, .people-grid { display: grid; gap: 1.1rem; }
+.milestone-grid article, .person-card { display: grid; grid-template-columns: 14rem minmax(0, 1fr); gap: 1.2rem; align-items: center; }
+.milestone-grid article + article, .person-card + .person-card { padding-top: 1.1rem; border-top: 1px solid var(--border); }
+.milestone-grid img, .person-card img { width: 100%; height: 9rem; object-fit: cover; border-radius: 0.65rem; border: 1px solid var(--border); }
+.person-card img { height: 11rem; }
+.contact-layout address { margin-bottom: 1rem; font-style: normal; }
 
 .publications-page .pub-main {
   padding-top: 2.4rem;
@@ -1065,6 +1099,26 @@ code {
 
   .project-item {
     grid-template-columns: 1fr;
+  }
+
+  .image-grid,
+  .card-grid,
+  .feature-card,
+  .contact-layout,
+  .milestone-grid article,
+  .person-card {
+    grid-template-columns: 1fr;
+  }
+
+  .image-grid img {
+    height: auto;
+    max-height: 24rem;
+  }
+
+  .milestone-grid img,
+  .person-card img {
+    height: auto;
+    max-height: 20rem;
   }
 
   .publications-page .pub-main {

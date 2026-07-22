@@ -1,26 +1,18 @@
 [
   {
-    "id": "project-example-one",
-    "title": "Example Research Project",
-    "summary": "A concise description of the research question, method, and intended impact of this project.",
-    "image": "assets/images/project-placeholder.svg",
-    "image_alt": "Example Research Project placeholder image",
-    "url": "pages/projects/project-example-one.html"
+    "id": "serotonin-social-subordination",
+    "title": "Serotonin and social subordination in A. burtoni",
+    "summary": "Characterising the role of the neurotransmitter serotonin in regulating social subordination in the African cichlid A. burtoni. · 2025–Present · SeaSoN Laboratory",
+    "image": "assets/images/source/projects-1.jpg",
+    "image_alt": "African cichlid research project",
+    "url": "https://sites.psych.ualberta.ca/SeaSoNLab/research/#:~:text=Seasonal%20Regulation%20of%20Social%20Status"
   },
   {
-    "id": "project-example-two",
-    "title": "Example Collaborative Project",
-    "summary": "A second example showing how to describe collaborative or interdisciplinary research.",
-    "image": "assets/images/project-placeholder.svg",
-    "image_alt": "Example Collaborative Project placeholder image",
-    "url": "pages/projects/project-example-two.html"
-  },
-  {
-    "id": "project-external",
-    "title": "Project with an External Website",
-    "summary": "Project cards may also link directly to an external project website or software demonstration.",
-    "image": "assets/images/project-placeholder.svg",
-    "image_alt": "External project placeholder image",
-    "url": "https://example.com"
+    "id": "zebrafish-social-isolation",
+    "title": "Social isolation in zebrafish",
+    "summary": "Investigating the impact of social isolation on metabolic rate, movement rate, and social interaction in zebrafish (Danio rerio). · 2022–Present · Neuroethology Laboratory",
+    "image": "assets/images/source/projects-2.jpg",
+    "image_alt": "Zebrafish research project",
+    "url": "https://doi.org/10.1101/2024.11.22.624675"
   }
 ]

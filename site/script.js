@@ -4,7 +4,7 @@ window.siteRootUrl = siteRootUrl;
 window.resolveSiteUrl = (path) => new URL(path, siteRootUrl).href;
 
 const setAvailableBackground = () => {
-  const candidates = ["background.png", "background.jpg", "background.jpeg"];
+  const candidates = ["background.jpeg", "background.png", "background.jpg"];
 
   const tryCandidate = (index) => {
     if (index >= candidates.length) return;
