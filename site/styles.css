@@ -447,7 +447,7 @@ h1 {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid var(--panel);
+  border: 3px solid var(--accent);
   box-shadow: 0 10px 24px var(--menu-shadow);
   margin: 0;
 }
