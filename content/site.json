@@ -4,8 +4,8 @@
   "publication_name": "Arpita Ghosh",
   "citation_name": "A. Ghosh",
   "email_display": "arpitaghosh@ualberta.ca",
-  "site_title": "Arpita Ghosh | Behavioural Neuroscience",
-  "description": "Academic website of Arpita Ghosh, doctoral student in Comparative Cognition & Behaviour at the University of Alberta.",
+  "site_title": "Arpita Ghosh | Behavioural Neuroscientist",
+  "description": "Arpita Ghosh is a behavioural neuroscientist and doctoral student at the University of Alberta studying the neural control of social behaviour.",
   "copyright_year": 2026,
   "footer_text": "Last updated:",
   "navigation": [
@@ -20,7 +20,7 @@
     { "label": "Contact", "path": "pages/contact.html" }
   ],
   "pages": {
-    "index.html": { "title": "", "description": "Academic website of Arpita Ghosh, behavioural neuroscientist-in-training at the University of Alberta." },
+    "index.html": { "title": "", "description": "Arpita Ghosh is a behavioural neuroscientist and doctoral student at the University of Alberta studying the neural control of social behaviour." },
     "projects.html": { "title": "Projects", "description": "Research projects by Arpita Ghosh." },
     "teaching.html": { "title": "Teaching", "description": "Teaching experience of Arpita Ghosh." },
     "presentations.html": { "title": "Presentations", "description": "Conference presentations by Arpita Ghosh." },
