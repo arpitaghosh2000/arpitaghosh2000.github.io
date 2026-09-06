@@ -130,7 +130,7 @@ const setSiteContent = (site) => {
   renderLastUpdated();
 
   const aboutTitle = document.getElementById("aboutTitle");
-  if (aboutTitle) aboutTitle.textContent = `About ${site.short_name || site.name}`;
+  if (aboutTitle) aboutTitle.textContent = `About ${site.name}`;
   const bio = document.getElementById("aboutBio");
   if (bio) bio.innerHTML = site.bio_html || "";
   const profileImage = document.getElementById("profileImage");
