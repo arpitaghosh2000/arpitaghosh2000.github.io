@@ -443,10 +443,10 @@ h1 {
 
 .profile-pic {
   display: block;
-  width: clamp(165px, 24vw, 240px);
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
-  border-radius: 50%;
+  width: clamp(190px, 24vw, 280px);
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  border-radius: 0.9rem;
   border: 3px solid var(--accent);
   box-shadow: 0 10px 24px var(--menu-shadow);
   margin: 0;
@@ -1070,7 +1070,7 @@ code {
 
   .profile-pic {
     justify-self: center;
-    width: clamp(150px, 46vw, 220px);
+    width: clamp(180px, 55vw, 240px);
   }
 
   .news-section {
